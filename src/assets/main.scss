@@ -43,9 +43,9 @@ html, body {
   flex: 0 0 100px;
 }
 
+@tailwind utilities;
+
 .h-screen {
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
 }
-
-@tailwind utilities;
