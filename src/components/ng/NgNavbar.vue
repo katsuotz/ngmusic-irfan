@@ -10,7 +10,7 @@ const music = useMusicStore()
 </script>
 
 <template>
-  <div class="relative">
+  <div class="fixed top-0 left-0 right-0">
     <nav class="custom-navbar flex justify-between items-center text-white">
       <IconMenu/>
       <RouterLink to="/"><img src="../../assets/logo-text.png" alt=""></RouterLink>

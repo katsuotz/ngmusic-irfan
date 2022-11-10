@@ -6,5 +6,7 @@ import NgNavbar from "@/components/ng/NgNavbar.vue";
 
 <template>
   <NgNavbar/>
-  <RouterView/>
+  <div class="pt-10">
+    <RouterView/>
+  </div>
 </template>
