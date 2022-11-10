@@ -27,8 +27,8 @@ const music = useMusicStore()
         <div class="modal-body relative px-10">
           <form @submit.prevent="() => music.getMusic(1)">
             <p class="text-white font-bold text-2xl text-center mb-8">Search</p>
-            <input type="text" class="text-center rounded-full w-full py-2 px-4 placeholder-blue-gray-500 mb-4 font-medium" placeholder="Artist / Album / Title" v-model.trim="music.inputSearch"/>
-            <button class="bg-gradient-to-r from-primary to-primary-light text-white rounded-full w-full py-2 px-4" data-bs-dismiss="modal" aria-label="Search" type="submit">Search</button>
+            <input type="text" class="text-center rounded-full w-full py-2.5 px-4 placeholder-blue-gray-500 mb-4 font-medium" placeholder="Artist / Album / Title" v-model.trim="music.inputSearch"/>
+            <button class="bg-gradient-to-r from-primary to-primary-light text-white rounded-full w-full py-2 px-4 font-medium" data-bs-dismiss="modal" aria-label="Search" type="submit">Search</button>
           </form>
         </div>
       </div>

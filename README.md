@@ -13,6 +13,12 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
+copy .env.example to .env
+```
+
+### Install packages
+
+```sh
 npm install
 ```
 
